@@ -7,7 +7,6 @@ import (
 	"io"
 	"os"
 	"regexp"
-	"runtime/debug"
 	"strconv"
 	"sync"
 	"time"
@@ -163,7 +162,6 @@ func run(path string, workerCount int) {
 // panic prints an error message to stderr and exits.
 func panic(err error) {
 	fmt.Printf("Error: %s\n", err)
-	debug.PrintStack()
 	os.Exit(1)
 }
 
