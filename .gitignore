@@ -1,0 +1,7 @@
+*.csv
+*.nix
+*.sql
+.envrc
+.go
+querybench
+vendor

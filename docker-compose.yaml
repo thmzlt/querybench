@@ -1,0 +1,8 @@
+version: "3.8"
+services:
+  postgres:
+    image: "timescale/timescaledb:2.1.1-pg13"
+    environment:
+      - POSTGRES_HOST_AUTH_METHOD=trust
+    ports:
+      - "5432:5432"
