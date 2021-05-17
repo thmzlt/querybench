@@ -11,5 +11,5 @@ via a command line argument and to a Postgres database (set up from the task
 instructions) via the `DATABASE_URL` environment variable. For example:
 
 ```
-DATABASE_URL=postgres://postgres@localhost/homework ./querybench -f query_params.csv
+DATABASE_URL=postgres://postgres@localhost/homework querybench -f query_params.csv
 ```
