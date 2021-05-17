@@ -1,7 +1,7 @@
 *.csv
-*.nix
 *.sql
 .envrc
 .go
 querybench
+result
 vendor
